@@ -105,12 +105,12 @@ button:focus{outline:dashed #666 thin;}
 #header .inner nav ul li{float:left;margin-left:40px;}
 #header .inner nav ul li a{display:block}
 
-#container{width:100%;}
+#container{width:100%; max-width: 1907px; margin: 0 auto; }
 
-.title{max-width: 1907px; min-width: 1600px; background: #E06C9C; padding: 150px 0 115px; display: flex; justify-content: center;}
+.title{max-width: 1907px; min-width: 1600px; margin: 0 auto; background: #E06C9C; padding: 150px 0 115px; display: flex; justify-content: center;}
 .title p{font-size: 60px; font-weight: 500; color: #fff; line-height: 80px; text-align: left;}
 
-.about{padding: 100px 0; width: 1907px;}
+.about{padding: 100px 0 0; width: 1907px;}
 .about .tit{position:relative; margin: 0 auto 70px; padding-top: 15px;}
 .about .tit::after{position:absolute; content:""; top:0; left:50%; transform: translate(-50%, 0); width:40px; height:5px; background-color:#E06C9C;}
 .about .tit p{font-size: 48px; font-weight: bold; color: #212529; letter-spacing: -0.05em; text-align: center;}
@@ -122,7 +122,7 @@ button:focus{outline:dashed #666 thin;}
 .about .record_cont .cont>div p{font-size: 18px; font-weight: 400; color: #212529;}
 .about .record_cont .cont>div p span{font-size: 14px; color: #808080;}
 
-.project{width: 1907px;}
+.project{max-width: 1907px; min-width: 1600px; padding: 100px 0 0;}
 .project .tit{position:relative; margin: 0 auto 70px; padding-top: 15px;}
 .project .tit::after{position:absolute; content:""; top:0; left:50%; transform: translate(-50%, 0); width:40px; height:5px; background-color:#E06C9C;}
 .project .tit p{font-size: 48px; font-weight: bold; color: #212529; letter-spacing: -0.05em; text-align: center;}

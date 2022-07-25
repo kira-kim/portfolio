@@ -137,7 +137,7 @@ button:focus{outline:dashed #666 thin;}
 .pj_cont .pj_cont_out>div.pj_images img{filter: drop-shadow(5px 5px 5px #000)}
 .pj_cont .pj_cont_out>div.pj_ex>div{display: flex; align-items: baseline;}
 .pj_cont .pj_cont_out>div.pj_ex>div+div{margin-top: 20px;}
-.pj_cont .pj_cont_out>div.pj_ex>div H2{font-size: 26px; font-weight: bold;}
+.pj_cont .pj_cont_out>div.pj_ex>div h2{font-size: 26px; font-weight: bold; line-height: 30px; margin-bottom: 20px;}
 .pj_cont .pj_cont_out>div.pj_ex>div h5{font-size: 18px; font-weight: 500; color: #666; margin-right: 20px; width: 100px;}
 .pj_cont .pj_cont_out>div.pj_ex>div a:hover{color: #E06C9C; font-weight: bold;}
 .pj_cont .pj_code table{width: 100%; margin: 50px auto 0; border-top: 2px solid #222;}
